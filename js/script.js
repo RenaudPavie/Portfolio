@@ -1,8 +1,21 @@
 var myFullpage = new fullpage('#fullpage', {
-    anchors: ['Home', 'About', 'Portfolio', 'Skills'],
+    menu:'#menu',
+    anchors: ['Home', 'About', 'Portfolio', 'Skills','Contact'],
     sectionsColor: ['#1e232b', '#1e232b', '#1e232b', '#1e232b'],
+
     navigation: true,
     navigationPosition: 'right',
-    navigationTooltips: ['First page', 'Second page', 'Third and last page','fourth'],
-    verticalCentered:false,
+    // loopBottom:true,
+
+    scrollingSpeed:500,
 });
+
+$('.one-time').slick({
+    arrows:false,
+    infinite: true,
+    autoplay:false,
+    pauseOnHover:true,
+    focusOnSelect:false,
+    speed: 300,
+    slidesToShow: 1,
+  });
