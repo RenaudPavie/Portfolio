@@ -13,7 +13,7 @@ var myFullpage = new fullpage('#fullpage', {
 $('.one-time').slick({
     arrows:false,
     infinite: true,
-    autoplay:false,
+    autoplay:true,
     pauseOnHover:true,
     focusOnSelect:false,
     speed: 300,
