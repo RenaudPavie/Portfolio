@@ -8,6 +8,7 @@
         <link href="https://fonts.googleapis.com/css2?family=Anton&family=Arimo:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
         <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
         <link href="libs/fullpage.css" rel="stylesheet">
+        <link href="css/skillcheck.css" rel="stylesheet">
         <!-- <link href="css/reset.css" rel="stylesheet"> -->
         <link href="css/style.css" rel="stylesheet">
     </head>
@@ -18,8 +19,8 @@
             <header class="full-height section" id="test">
                 <div class="slide">
                     <div class="container" id="homePage">
-                        <h1>Renaud Pavie</h1>
-                        <h2>Développeur Front-End</h2>
+                        <h1 class="text">Renaud Pavie</h1>
+                        <h2 class="text">Développeur Front-End</h2>
                     </div>
                     <ul id="menu">
                         <li ><a href="#Home"></a></li>
@@ -31,14 +32,27 @@
                 </div>
             </header>
 
+            <!-- A PROPOS DE MOI -->
 
             <section class="full-height section">
-                <div class="slide">
-                    <div class="container">
+                <div class="slide about-before">
+                    <div class="about">
                         <h2 class="section-title">À propos de moi</h2>
+                        <div id="box-about">
+                            <picture><img src="img/photocv.jpg" alt=""></picture>
+                            <article>
+                                <p class="text">Anciennement Ébeniste d'Art, j'ai décidé de me réorienté vers le développement web et plus particulièrement vers la partie dites "Front-End".</p>
+                                <p class="text">Suite à cette déicsion, je me suis testé dans le domaine pendant 6 mois lors de l'obtention de mes 2 certifications : <br> - "Développeur web" <br> - "Intégrateur web".</p>
+                                <p class="text">Une foi les avoirs obtenu, je me suis consacré à la poursuite de mes études afin de réussir dans ce domaine professionnel</p>
+                            </arcitle>
+                        </div> 
                     </div>
                 </div>
             </section>
+
+
+            <!-- PORTFOLIO -->
+
 
             <section class="full-height section">
                 <div class="slide">
@@ -110,15 +124,53 @@
                 </div>
             </section>
 
+            <!-- SKILLS CHECK -->
+
             <section class="full-height section">
                 <div class="slide">
-                    <div class="container">
+                    <div class="skillcheck">
                         <h2 class="section-title">Skills</h2>
                         
+                        <div class="anim-wrapper">
+                            <div class="skills-animation">
+                                <picture>
+                                    <img src="img/logo/javascript.png" alt="" id="js-animation" class="animation-top">
+                                    <img src="img/logo/photoshop.png" alt="" id="psd-animation" class="animation-top-right">
+                                    <img src="img/logo/css3.png" alt="" id="css-animation" class="animation-right">
+                                    <img src="img/logo/react.png" alt="" id="shopify-animation" class="animation-right">
+                                    <img src="img/logo/indd.png" alt="" id="pr-animation" class="animation-bottom-right">
+                                    <img src="img/logo/vs-code.png" alt="" id="vs-animation">
+                                    <img src="img/logo/firebase.png" alt="" id="mg-animation" class="animation-bottom">
+                                    <img src="img/logo/illustrator.png" alt="" id="ai-animation" class="animation-bottom-left">
+                                    <img src="img/logo/github-pics.png" alt="" id="github-animation" class="animation-left">
+                                    <img src="img/logo/html5.png" alt="" id="html-animation" class="animation-left">
+                                    <img src="img/logo/xd.png" alt="" id="ae-animation" class="animation-top-left">
+                                </picture>
+                            </div>
+    
+                            <div class="skills-text text">
+                                <p>
+                                    Au fil des années, j'ai acquéris des compétences techniques dans différents languages et sur différents logiciels.
+                                </p>
+                                <ul>
+                                    <li></li>
+                                    <li></li>
+                                    <li></li>
+                                    <li></li>
+                                </ul>
+                            </div>
+                        </div>
+                       
+
+                        <div>
+                            <h2></h2>
+                        </div>
+
                     </div>
                 </div>
             </section>
 
+            <!-- CONTACT -->
 
             <footer class="full-height section">
                 <div class="slide">
@@ -175,6 +227,7 @@
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
         <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
         <script src="libs/fullpage.js"></script>
+        <script src="js/app.js"></script>
         <script src="js/script.js"></script>
     </body>
 </html>
