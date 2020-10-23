@@ -79,7 +79,7 @@ header::before {
     width: fit-content;
 }
 /* ABOUT */
-div.about-before {
+/* div.about-before {
     position: relative;
 }
 div.about-before::before {
@@ -92,7 +92,7 @@ div.about-before::before {
     left: 0;
     top: 100px;
     z-index: 1;
-}
+} */
 div.about {
     width: 80%;
     height: 100%;
@@ -199,12 +199,12 @@ article.slider-box {
     
 }
 .slider-box a {
-    background:orange;
+    background:#ff6b00;
     color: #eddbb7;
-    width: 100px;
+    padding:5px 10px;
     text-align: center;
     position: absolute;
-    bottom: 100px;
+    bottom: 80px;
     left:calc(50% - 50px);
 }
 .slider-box a:hover {
@@ -295,7 +295,9 @@ div.skillcheck .anim-wrapper {
     justify-content: space-around;
 }
 
-
+div.skillcheck .skills-text p {
+    color: #eddbb7;
+}
 
 /* FIX BUG / OVERIDE PLUGIN  */
 #fp-nav ul li a span, .fp-slidesNav ul li a span {

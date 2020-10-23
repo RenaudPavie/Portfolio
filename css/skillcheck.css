@@ -144,7 +144,7 @@ div.skills-animation picture img#ae-animation{
     opacity: 0;
 }
 .animation-bottom.not-visible{
-    transform: translateY(150px);
+    transform: translateY(50px);
     opacity: 0;
 }
 .animation-bottom-left.not-visible{
